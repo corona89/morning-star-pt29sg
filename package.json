@@ -4,12 +4,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server --port 3001 --np-proxy-server --watch db.json"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "chart.js": "^4.3.0",
     "chartjs-adapter-moment": "^1.0.1",
+    "json-server": "^0.17.4",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
